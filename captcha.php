@@ -28,7 +28,7 @@ for($i=0; $i<1600; $i++){
     imageline($im, $rand1, $rand2, $rand1, $rand2, $net);
 }
 
-$x = rand(5, $width/(7/2));
+$x = rand(5, intval($width/(7/2)));
 
 imagerectangle($im, 0, 0, $width-1, $height-1, $frame);
 
